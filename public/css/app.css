@@ -11844,5 +11844,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.darkModeSection {
+  background-color: black;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+section:first-of-type {
+  width: 100%;
+  height: auto;
+}
+
+section:nth-of-type(2) {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=app.css.map */

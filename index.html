@@ -6,8 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
-<body>
-    <header>
+<body">
+
+    <!-- header -->
+    <header class="darkModeSection">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
             <img class="navbar-brand" src="./src/img/main-logo.png" alt="">
@@ -26,39 +28,119 @@
         </nav>
     </header>
 
-    <!-- Life of the Wild -->
-    <section>
-        <div class="container">
-            <div>
-                <h1>Life of the Wild</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero soluta aut rerum corporis inventore dolorum itaque ipsa, nisi perferendis doloribus.</p>
+    <button class="btnDarkMode">Dark Mode</button>
+
+    <!-- section 1 Life of the Wild -->
+    <section class="darkModeSection d-flex justify-content-center">
+        <div class="container row ms-auto">
+            <div class="col-xl-5 m-auto">
+                <h1 class="darkModeText">Life of the Wild</h1>
+                <p class="darkModeText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero soluta aut rerum corporis inventore dolorum itaque ipsa, nisi perferendis doloribus.</p>
                 <button class="btn btn-primary" type="submit">Button</button>
             </div>
-            <div>
-                <img src="./src/img/main-banner1.jpg" alt="">
+            <div class="col-xl-5 m-auto my-5">
+                <img src="./src/img/main-banner1.jpg" class="w-50" alt="">
             </div>
         </div>
     </section>
 
-    <!-- Featured Books -->
+    <!-- section 2 Featured Books -->
     
-    <section>
-        <div class="container">
-            <div>
+    <section class="darkModeSection d-flex justify-content-center">
+        <div class="container-fluid row ms-auto">
+            <div class="d-flex justify-content-center my-5">
                 <h3>Featured Books</h3>
             </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="bg-body-secondary border border-dark d-flex justify-content-center my-3 py-4">
+                        <img class="imgLivre w-auto" src="./src/img/product-item1.jpg" alt="">
+                    </div>
+                    <div text-center>
+                        <h6 class="darkModeText">Simple Way of Piece Life</h6>
+                        <p class="darkModeText">Armor Ramsey</p>
+                        <p class="darkModeText">$ 40.00</p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="bg-body-secondary border border-dark d-flex justify-content-center my-3 py-4">
+                        <img class="imgLivre w-auto" src="./src/img/product-item2.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h6>Simple Way of Piece Life</h6>
+                        <p>Armor Ramsey</p>
+                        <p>$ 40.00</p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="bg-body-secondary border border-dark d-flex justify-content-center my-3 py-4">
+                        <img class="imgLivre w-auto" src="./src/img/product-item3.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h6>Simple Way of Piece Life</h6>
+                        <p>Armor Ramsey</p>
+                        <p>$ 40.00</p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="bg-body-secondary border border-dark d-flex justify-content-center my-3 py-4">
+                        <img class="imgLivre w-auto" src="./src/img/product-item4.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h6>Simple Way of Piece Life</h6>
+                        <p>Armor Ramsey</p>
+                        <p>$ 40.00</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div>
+    <hr>
 
+    <!-- footer -->
+    <footer class="darkModeSection container my-5">
+        <div class="row gap-5 my-auto">
+            <div class="col-xl-3">
+                <img class="mb-3" src="./src/img/main-logo.png" alt="">
+                <p class="darkModeText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nulla, amet neque voluptatem vel deleniti animi unde aperiam facere reprehenderit, ratione veritatis ipsum voluptate voluptatum accusamus quibusdam repudiandae nostrum numquam possimus odio! Illo nostrum libero laboriosam ad doloribus odio dolorum.</p>
+            </div>
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <h5>About Us</h5>
+                        <p>vision</p>
+                        <p>articles</p>
+                        <p>careers</p>
+                        <p>service terms</p>
+                        <p>donate</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <h5>About Us</h5>
+                        <p>vision</p>
+                        <p>articles</p>
+                        <p>careers</p>
+                        <p>service terms</p>
+                        <p>donate</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <h5>About Us</h5>
+                        <p>vision</p>
+                        <p>articles</p>
+                        <p>careers</p>
+                        <p>service terms</p>
+                        <p>donate</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <h5>About Us</h5>
+                        <p>vision</p>
+                        <p>articles</p>
+                        <p>careers</p>
+                        <p>service terms</p>
+                        <p>donate</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

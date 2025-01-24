@@ -1,1 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./mixins";
+@import "./variable";
+@import "./modules/style";
+@import "./modules/header";
+@import "./modules/section_1";
+@import "./modules/section_2";
+@import "./modules/footer";

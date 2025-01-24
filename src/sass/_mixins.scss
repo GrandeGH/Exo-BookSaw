@@ -1,0 +1,9 @@
+@mixin espace {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@mixin darkmode {
+    color: white;
+}
